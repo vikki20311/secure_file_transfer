@@ -1,0 +1,90 @@
+# requirements.txt
+# Secure File Transfer System Dependencies
+# Install with: pip install -r requirements.txt
+
+# ============================================
+# CORE DEPENDENCIES
+# ============================================
+
+# Computer Vision & Gesture Detection
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+
+# ============================================
+# SECURITY & CRYPTOGRAPHY
+# ============================================
+
+cryptography>=41.0.0
+pycryptodome>=3.19.0
+# secrets is built into Python - no need to install
+
+# ============================================
+# NETWORK & COMMUNICATION
+# ============================================
+
+websocket-client>=1.6.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# ============================================
+# UI & DISPLAY
+# ============================================
+
+# Tkinter (included with Python, no pip install needed)
+# For better UI, optional:
+Pillow>=10.0.0
+pyautogui>=0.9.54
+
+# ============================================
+# SERVER DEPENDENCIES
+# ============================================
+
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+Flask-Sock>=0.6.0
+gunicorn>=21.0.0
+
+# ============================================
+# DATABASE (SQLite included with Python)
+# ============================================
+
+# SQLite3 - Built into Python
+
+# ============================================
+# SYSTEM & UTILITIES
+# ============================================
+
+psutil>=5.9.0
+platformdirs>=4.0.0
+
+# ============================================
+# WINDOWS-SPECIFIC
+# ============================================
+
+pywin32>=306; sys_platform == 'win32'
+
+# ============================================
+# DEVELOPMENT & TESTING (Optional)
+# ============================================
+
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# ============================================
+# INSTALLATION INSTRUCTIONS
+# ============================================
+
+# 1. Basic installation (client only - already have most):
+#    pip install websocket-client Pillow pyautogui psutil platformdirs pywin32
+#
+# 2. Full installation (including server):
+#    pip install Flask Flask-CORS Flask-Sock gunicorn
+#
+# 3. Verify installation:
+#    python -c "import cv2; import mediapipe; import cryptography; print('All OK!')"
+twilio>=9.0.0
+phonenumbers>=8.13.0
+pip install flask flask-cors flask-sock

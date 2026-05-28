@@ -1,0 +1,13 @@
+[2026-04-28 02:38:46,734] [INFO] [PalmSync] Initializing PalmSync Controller v2.0.0
+[2026-04-28 02:38:46,734] [INFO] [PalmSync] Device: Vishal | IP: 172.18.3.218
+[2026-04-28 02:38:47,460] [WARNING] [PalmSync] Some modules failed to initialize: ["Gesture detector: HandDetector.__init__() got an unexpected keyword argument 'detection_confidence'", "LAN discovery: HybridLANDiscovery.__init__() got an unexpected keyword argument 'scan_interval'", "Receiver listener: ReceiverListener.__init__() got an unexpected keyword argument 'port'", "Transfer acceptor: TransferAcceptor.__init__() got an unexpected keyword argument 'auto_accept_trusted'", "Timeout manager: TimeoutManager.__init__() got an unexpected keyword argument 'default_timeout'"]
+[2026-04-28 02:38:47,461] [WARNING] [PalmSync] System will run with reduced functionality
+[2026-04-28 02:38:47,461] [INFO] [PalmSync] Controller initialized successfully
+[2026-04-28 02:38:47,461] [INFO] [PalmSync] Starting PalmSync Secure Transfer System...
+[2026-04-28 02:38:47,462] [INFO] [PalmSync] System started successfully
+[2026-04-28 02:38:47,462] [INFO] [PalmSync] Active modules: Content Detection, Timeout Manager
+[2026-04-28 02:38:47,462] [INFO] [PalmSync] Waiting for gestures...
+[2026-04-28 02:40:38,334] [INFO] [PalmSync] Received signal 2, shutting down...
+[2026-04-28 02:40:38,335] [INFO] [PalmSync] Stopping PalmSync Secure Transfer System...
+[2026-04-28 02:40:38,335] [ERROR] [PalmSync] Error stopping Content Detector: 'ContentDetector' object has no attribute 'stop'
+[2026-04-28 02:40:40,348] [INFO] [PalmSync] System stopped successfully
